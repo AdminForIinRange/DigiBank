@@ -132,11 +132,11 @@
    
     padding-bottom: 4rem;
   }
-         /* Equivalent to the Tailwind p-4 class */
+        
       
        
       .btn{
-        margin-top: 1000%;
+        margin-top: 5%;
         margin-left: 12%;
      
         padding: 10px 20px;
