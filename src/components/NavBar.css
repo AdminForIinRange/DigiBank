@@ -1,0 +1,163 @@
+.nav-bar {
+    
+    background: linear-gradient(-90deg, rgba(25, 25, 25, 0) 0%, rgba(25, 25, 25, 0.1) 10%, rgba(25, 25, 25, 0.2) 20%, rgba(25, 25, 25, 0.3) 30%, rgba(25, 25, 25, 0.4) 40%, rgba(25, 25, 25, 0.5) 50%, rgba(25, 25, 25, 0.6) 60%, rgba(25, 25, 25, 0.6) 70%, rgba(25, 25, 25, 0.7) 80%, rgba(25, 25, 25, 0.8) 90%, rgba(25, 25, 25, 0.8) 100%);
+    background-position: 0px 0px;
+    padding: 1rem; /* Equivalent to the Tailwind p-4 class */
+  width: 110%;
+    
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+   
+
+  &:hover {
+     /* Scale up the image on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+ 
+  }
+  }
+  
+  .nav-link {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-logo {
+    height: 4rem; /* Equivalent to the Tailwind h-16 class */
+    width: 5rem; /* Equivalent to the Tailwind w-16 class */
+    object-fit: contain;
+    margin-right: -5px; /* Equivalent to the Tailwind ml-2 class */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    
+
+    &:hover {
+        transform: scale(1.05);
+        /* Scale up the image on hover */
+      
+    
+     }
+
+  }
+  
+  .nav-text {
+    color: white;
+    font-size: 2rem; /* Equivalent to the Tailwind text-xl class */
+    font-weight: bold;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    
+
+    &:hover {
+        transform: scale(1.05);
+        /* Scale up the image on hover */
+      
+    
+     }
+
+  }
+  
+
+  .btn {
+    font-weight: bolder;
+    transition: background-position .5s;
+    z-index: 1;
+    margin-right: 20px;
+    background: #150E60;
+    background-image: -webkit-linear-gradient(top, #150E60, #150E60);
+    background-image: -moz-linear-gradient(top, #150E60, #150E60);
+    background-image: -ms-linear-gradient(top, #150E60, #150E60);
+    background-image: -o-linear-gradient(top, #150E60, #150E60);
+    background-image: linear-gradient(to bottom, #150E60, #150E60);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 40px;
+    border: solid #ffffff 0px;
+    text-decoration: none;
+
+    &:hover {
+        transform: scale(2); /* Scale up the button on hover */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+        background: #23179c; /* Change background color on hover */
+        text-decoration: none; /* Remove underlines on hover */
+
+
+   
+  }
+  
+
+}
+ 
+
+.navbar--navLinks  {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    
+
+    &:hover {
+        transform: scale(1.05);
+        /* Scale up the image on hover */
+      
+    
+     }
+
+
+
+}
+  
+  
+  
+/* Inside your CSS file */
+
+@media only screen and (max-width: 414px) {
+
+
+    .nav-logo {
+       
+        margin-left: 32%; /* Equivalent to the Tailwind ml-2 class */
+      }
+
+   
+
+
+      .nav-bar {
+       
+        
+   
+    padding-bottom: 4rem;
+  }
+         /* Equivalent to the Tailwind p-4 class */
+      
+       
+      .btn{
+        margin-left: 12%;
+     
+        padding: 10px 20px;
+        margin-right: 3%;
+
+        font-size: 60%;
+        
+
+
+      }
+
+      .navbar--navLinks {
+        
+        position: absolute;
+        top: 10%;
+       
+        
+      }
+
+      
+
+   
+    
+    /* Your CSS rules for iPhone in portrait mode */
+  }
