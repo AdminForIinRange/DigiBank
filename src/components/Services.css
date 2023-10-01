@@ -1,0 +1,268 @@
+.Services{
+    font-size: 125px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 5000px;
+    
+   
+   
+   
+
+}
+
+.DigitalFinancehas{
+    z-index: 2;
+    position: absolute;
+    left:10%;
+    top: 20%;
+    transition: transform 1s ease, box-shadow 1s ease;
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+
+    &:hover {
+      transform: scale(1.05); /* Scale up the image on hover */
+     text-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+    
+    }
+
+   
+   
+    
+}
+
+
+.neverbeenmoreeasier{
+    z-index: 2;
+    position: absolute;
+   
+  
+    left:10%;
+    top: 32%;
+     transition: transform 1s ease, box-shadow 1s ease;
+     text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+
+  &:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+   text-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+  
+  }
+    
+}
+
+/* Default styles for all screens */
+/* You can place your global styles here */
+
+/* Media query for mobile phones */
+
+@media only screen and (max-width: 414px) {
+    .MainTitle{
+        font-size: 90px;
+    }
+
+    .Digital{
+        position: absolute;
+        left:10%;
+        top: 22%;
+    }
+
+    .Finance{
+        position: absolute;
+        left: 7%;
+        top: 32%;
+    }
+}
+
+.parral{
+
+    height: 2000px;
+    position: relative;
+    z-index: 2;
+    
+}
+
+
+
+.gradient-title {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+  
+    
+}
+
+
+.custom-gradient-title {
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+    padding: 0.2em 1em 0.5em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    border: solid #ffffff 0px;
+    text-align: center;
+  
+  
+
+    background: linear-gradient(120deg, rgba(57, 255, 176, 0.5), rgba(81, 65, 255, 0.5), rgba(20, 174, 194, 0.5));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+
+
+    
+
+  }
+  
+  .custom-gradient-title:hover {
+    text-shadow: 0px 4px 8px rgba(0,0,0,1);
+    background-position: 0 0;
+     
+    
+  }
+
+  
+  @media only screen and (max-width: 414px) {
+    .gradient-title {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .custom-gradient-title {
+        transform: scale(0.5);
+        padding: 1em 1em;
+        font-size: 25px;
+    }
+}
+
+.grid-container {
+  position: relative;
+  top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  transition: transform 1s ease, box-shadow 1s ease;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+  gap: 50px;
+
+  &:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.grid-item {
+  font-weight: lighter;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.219);
+  background: #150E60;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 20px;
+  text-align: start;
+  transition: transform 1s ease, box-shadow 1s ease;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+
+  
+}
+
+  
+
+
+
+
+.gradient-title2 {
+    position: absolute;
+    top: 205%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+  
+    
+}
+.custom-gradient-title2 {
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.6);
+    padding: 0.2em 1em 0.5em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    border: solid #ffffff 0px;
+    text-align: center;
+  
+  
+
+    background: linear-gradient(120deg, rgba(57, 255, 176, 0.5), rgba(81, 65, 255, 0.5), rgba(20, 174, 194, 0.5));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+
+
+    
+
+  }
+  
+  .custom-gradient-title2:hover {
+    text-shadow: 0px 4px 8px rgba(0,0,0,1);
+    background-position: 0 0;
+     
+    
+  }
+
+  
+  @media only screen and (max-width: 414px) {
+    .gradient-title2 {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .custom-gradient-title2 {
+        transform: scale(0.5);
+        padding: 1em 1em;
+        font-size: 25px;
+    }
+}
+
+/* Update the container class to match your widget container */
+
+  /* Update the parent container's class */
+  .TV-container {
+    position: relative;
+    width: 1000px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    background-color: #00000000;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px;
+    top:0%;
+    
+  }
+  
+  
+  
+
+  .cover{
+
+    position: absolute;
+    z-index: 0;
+    width: 905px; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    background-color: #131722;
+    margin: 0 auto; /* Center the container horizontally */
+    top:294%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  border-radius: 15px;
+
+  }
+
+
+
